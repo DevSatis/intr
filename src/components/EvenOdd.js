@@ -14,7 +14,7 @@ const EvenOdd = (props) => {
     }
   return (
     <div>
-        <OddEven />
+        
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 import {usePrevious, useState} from "react";
 
-const Fibonacci = () => {
+const Fibonacci = (props) => {
   const [count, setCount] = useState(1);
   const previousCount = useState(count); 
 
@@ -15,6 +15,7 @@ const Fibonacci = () => {
       <div>previousCount: {previousCount}</div>
       <div>count: {count}</div>
       <button onClick={addCount}>click me</button>
+      
     </div>
   );
 }

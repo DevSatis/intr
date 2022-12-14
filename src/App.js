@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-function App() {
+function App(appToMain) {
   const [age, setAge] = useState("");
   const [dob, setDob] = useState("");
   const [selectedOption, setSelectedOption] = useState("");
